@@ -6,3 +6,22 @@ h1 {
     text-align: center;
     font-weight: bold;
 }
+
+#photo {
+    width: 8vw;
+    height: auto;
+}
+
+.subtitle {
+    color: rgb(151 156 165 / 0.89);
+    text-transform: uppercase;
+}
+
+footer p {
+    text-align: right;
+    font-style: italic;
+}
+
+nav > ul {
+    list-style: none;
+}
