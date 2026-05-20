@@ -10,6 +10,7 @@ h1 {
 #photo {
     width: 8vw;
     height: auto;
+    text-align: center;
 }
 
 .subtitle {
