@@ -7,6 +7,13 @@ h1 {
     font-weight: bold;
 }
 
+section {
+    border: 0.2pt solid #cedddd;
+    margin: 4px 2px 8px 2px;
+    padding: 1.5% 0.8%;
+    margin-bottom: 1.2rem;
+}
+
 #photo {
     width: 8vw;
     height: auto;
