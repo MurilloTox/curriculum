@@ -21,6 +21,7 @@
                 <li><a href="#herramientas">Herramientas</a></li>
                 <li><a href="#objetivo">Objetivo</a></li>
                 <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#referencias">Referencias</a></li>
             </ul>
         </nav>
     </header>
@@ -49,6 +50,47 @@
         <section id="contacto">
             <h2 class="subtitle">Contacto</h2>
             <p>Ubicado en República Dominicana, enfocado en el sector bancario.</p>
+
+            <form>
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+                <label for="motivo">Motivo de contacto</label>
+                <select id="motivo" name="motivo">
+                    <option value="vacante">Propuesta Laboral / QA Role</option>
+                    <option value="consulta">Consulta General</option>
+                    <option value="proyecto">Proyecto de Automatización</option>
+                </select>
+
+                <fieldset>
+                    <legend>Tipo de jornada preferida</legend>
+                    <input type="radio" id="remoto" name="jornada" value="remoto">
+                    <label for="remoto">Remoto</label>
+                    <input type="radio" id="presencial" name="jornada" value="presencial">
+                    <label for="presencial">Presencial / Híbrido</label>
+                </fieldset>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <section id="referencias">
+            <h2 class="subtitle">Referencias</h2>
+            
+            <article>
+                <h3>Líder de QA - Banco XYZ</h3>
+                <p>Supervisión directa en la implementación de pruebas automatizadas para la banca móvil.</p>
+            </article>
+            
+            <article>
+                <h3>Gerente de Proyectos - Tech Solutions</h3>
+                <p>Coordinación en entregas de software con integraciones de pruebas E2E continuas.</p>
+            </article>
+            
+            <article>
+                <h3>Desarrollador Senior - App Financiera</h3>
+                <p>Colaboración estrecha en la resolución de bugs detectados mediante WebdriverIO.</p>
+            </article>
         </section>
     </main>
 
